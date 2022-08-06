@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient(450deg, white,#85C1E9, #2980B9, #1A5276, black );
+}
+
+button{
+  background: #FA8800;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #F7CA00;
+}
+
+.navbar{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10px 10px;
+  background: transparent;
+  border-radius: 15px;
+  border-bottom: 2px solid #7F8C8D;
+}
+
+.item-navegacion {
+  font-weight: bold;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+i {
+  font-size: 130%;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 0 20px;
+  color: white;
+}
+
+.producto {
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(242, 244, 244, 0.3);
+  margin: 15px 0;
+  min-height: 500px;
+  padding: 10px 0;
+  box-shadow: 0 6px 30px 0;
+}
+
+.producto h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: overline;
+}
+
+.producto p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.producto span {
+  text-decoration: line-through;
+  color: red;
+}
+
+.producto h3 {
+  word-spacing: 100px;
+  padding: 8px 0;
+}
+
+.imagen-producto{
+  display: block;
+  margin: auto;
+}
+
+.boton{
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 90%;
+  padding-bottom: 40px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: rgba(242, 244, 244, 0.3);
+  height: 420px;
+  margin: 15px 0;
+  box-shadow: 0 6px 30px 0;
+}
+
+.sidebar h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.item-categoria {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.item-categoria:hover {
+  color: #212529;
+  text-decoration: underline;
+}
