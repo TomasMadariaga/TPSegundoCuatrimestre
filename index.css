@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(450deg, white,#85C1E9, #2980B9, #1A5276, black );
+  background-image: linear-gradient(450deg,#85C1E9, #2980B9, #1A5276, #154360, black );
 }
 
 button{
@@ -15,16 +15,18 @@ button:hover {
 }
 
 .navbar{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 10px 10px;
   background: transparent;
   border-radius: 15px;
-  border-bottom: 2px solid #7F8C8D;
+  border-bottom: 2px solid white;
 }
 
 .item-navegacion {
   font-weight: bold;
   font-family: monospace;
+}
+
+.item-navegacion:hover {
   text-decoration: underline;
 }
 
@@ -34,6 +36,11 @@ i {
   font-size: 30px;
   padding: 0 20px;
   color: white;
+}
+
+i:hover{
+  border-radius: 25px;
+  border: 2px solid white;
 }
 
 .producto {
