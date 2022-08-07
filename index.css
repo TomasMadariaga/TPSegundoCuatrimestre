@@ -42,6 +42,7 @@ i {
 
 i:hover{
   color: #FA8800;
+  border: 2px solid #FA8800;
 }
 
 .producto {
