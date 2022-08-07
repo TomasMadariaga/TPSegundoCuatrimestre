@@ -25,23 +25,24 @@ button:hover {
 .item-navegacion {
   font-weight: bolder;
   font-family: monospace;
+  font-size: 20px;
 }
 
 .item-navegacion:hover {
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 i {
   font-size: 130%;
-  border-radius: 50%;
+  border-radius: 25px;
   font-size: 30px;
   padding: 0 20px;
   color: white;
+  border: 2px solid white;
 }
 
 i:hover{
-  border-radius: 25px;
-  border: 2px solid white;
+  color: #FA8800;
 }
 
 .contenedor-carrito {
