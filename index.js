@@ -24,7 +24,7 @@ var calcularPrecio = function () {
   if (suma >= 2500) {
     oferta.innerHTML = `Usted tiene un descuento del 10%, el total es $${suma * 0.9}`
   } else {
-    oferta.innerHTML = 'Con su compra de 2500 puede acceder a un descuento'
+    oferta.innerHTML = 'Con su compra de $2500 puede acceder a un descuento'
   };
 };
 
